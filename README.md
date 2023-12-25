@@ -32,7 +32,7 @@ restore the product
 
 6. Delete product permanently
 
-http://127.0.0.1:8000/api/product/destroy
+http://127.0.0.1:8000/api/product/delete
 
 delete the product permamently
 
