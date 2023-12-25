@@ -1,0 +1,274 @@
+.testimonial {
+    padding: 20px !important;
+}
+
+.swal-title {
+    font-size: 18px;
+}
+
+.swal-text {
+    font-size: 16px;
+}
+
+.swal-footer {
+    background-color: rgb(245, 248, 250);
+    margin-top: 32px;
+    border-top: 1px solid #E9EEF1;
+    overflow: hidden;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.completed .m-widget2__text {
+    text-decoration: line-through;
+}
+
+.m-messenger__message {
+    clear: both;
+}
+
+
+.checked {
+    color: orange;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 5px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    user-select: none;
+    border-radius: 35px;
+    background: white;
+    width: 35px;
+    height: 35px;
+    color: black;
+    opacity: 0.8;
+    z-index: 98;
+}
+@media (max-width: 767px){
+    .dropdown__content{
+      padding-bottom: 100px;
+    }
+}
+
+
+
+/*--------------------- Pricing Section Three ------------------*/
+.block-12 ul li {
+    line-height: 1.5 !important;
+    padding: 0 0 17px 0;
+    list-style: none;
+}
+.block-12.pricing-section-three {
+    background-color: #5bc0be;
+}
+.pricing-section-three {
+  background: #FDECD8;
+  position: relative;
+  z-index: 1;
+  padding: 40px 30px;
+}
+
+.pricing-section-three .shape-one {
+  top: 7%;
+  right: 13%;
+  animation: jumpThree 5s infinite linear;
+}
+.pricing-section-three .shape-two {
+  top: 45%;
+  right: 5%;
+  animation: jumpTwo 5s infinite linear;
+}
+.pricing-section-three .shape-three {
+  top: 88%;
+  right: 10%;
+  animation: jumpThree 5s infinite linear;
+}
+.pricing-section-three .shape-four {
+  top: 89%;
+  left: 11%;
+  animation: jumpTwo 5s infinite linear;
+}
+.pricing-section-three .shape-five {
+  top: 43%;
+  left: 4%;
+  animation: jumpThree 5s infinite linear;
+}
+.pricing-section-three .shape-six {
+  top: 9%;
+  left: 15%;
+  animation: jumpTwo 5s infinite linear;
+}
+.pricing-section-three .pricing-table-area-three {position: relative;}
+.pricing-table-area-three .pr-table-wrapper {
+  background: #fff;
+  padding: 40px 20px 40px;
+  text-align: center;
+  margin-top: 45px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-table-area-three .pr-table-wrapper:hover {transform: translateY(-10px);}
+.pricing-table-area-three .pr-table-wrapper.skew-right:before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: 0;
+  width: 100%;
+  height: 25px;
+  background: #fff;
+  transform: skewY(2.3deg);
+}
+.pricing-table-area-three .pr-table-wrapper.skew-left:before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: 0;
+  width: 100%;
+  height: 25px;
+  background: #fff;
+  transform: skewY(-2.3deg);
+}
+.pricing-table-area-three .pr-table-wrapper .pack-name {
+  font-size: 32px;
+  color: #000;
+}
+.pricing-table-area-three .pr-table-wrapper .pack-name span {position: relative;z-index: 1;}
+.pricing-table-area-three .pr-table-wrapper .pack-name span:before {
+  content: '';
+  width: 109%;
+  height: 15px;
+  position: absolute;
+  left: 50%;
+  bottom: 5px;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+.pricing-table-area-three .pr-table-wrapper .pack-name.pc1 span:before {background: #D4FDF1;}
+.pricing-table-area-three .pr-table-wrapper .pack-name.pc2 span:before {background: #DBF7FF;}
+.pricing-table-area-three .pr-table-wrapper .pack-name.pc3 span:before {background: #FFE3E3;}
+
+.pricing-table-area-three .pr-table-wrapper .price {
+  font-size: 65px;
+  color: #000;
+  padding: 24px 0 0;
+  line-height: initial;
+}
+.pricing-table-area-three .pr-table-wrapper .user-condition {font-size: 24px; color: #000;margin-bottom: 0;}
+.pricing-table-area-three .pr-table-wrapper .line {
+  width: 100%;
+  margin: 25px auto 38px;
+}
+.pricing-table-area-three .pr-table-wrapper ul {text-align: left; padding-left: 5px;}
+.pricing-table-area-three .pr-table-wrapper ul li {
+  font-family: 'Rubik', sans-serif;
+  font-size: 17px;
+  line-height: 42px;
+  color: #464646;
+  position: relative;
+  padding-left:30px;
+}
+.pricing-table-area-three .pr-table-wrapper ul li.disable {color: #B9B9B9;}
+.pricing-table-area-three .pr-table-wrapper ul li.tick:before{
+  content: url(https://weddingsuppliers.ie/frontend/img/63.svg);
+  position: absolute;
+  left: 0;
+  top: 1px;
+}
+.pricing-table-area-three .pr-table-wrapper ul li.cross:before{
+    content: url(https://weddingsuppliers.ie/frontend/img/cross-red.svg);
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 20px;
+  }
+.pricing-table-area-three .pr-table-wrapper ul li.disable:before{
+  content: url(https://weddingsuppliers.ie/frontend/img/64.svg);
+  top: 5px;
+  left: -8px;
+}
+.pricing-table-area-three .pr-table-wrapper .subscribe-btn {
+  display: block;
+  width: 95%;
+  margin: 37px auto 0;
+  line-height: 46px;
+  border: 2px solid var(--purple-blue);
+  text-align: center;
+  color: var(--purple-blue);
+  transition: all 0.3s ease-in-out;
+}
+.pricing-table-area-three .pr-table-wrapper .subscribe-btn:hover {
+  background:var(--purple-blue);
+  color: #fff;
+}
+.pricing-section-three-inner-page {
+  background: #FBF3EC;
+  position: relative;
+  z-index: 1;
+  padding: 40px 30px;
+}
+.pricing-section-three-inner-page .shape-one {left: 0; top: 19%;}
+.pricing-section-three-inner-page .shape-two {right: 0; top: 19%;}
+.pricing-section-three-inner-page:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 103px;
+  left: 0;
+  bottom: -100px;
+  background: url(https://weddingsuppliers.ie/frontend/img/63.svg) no-repeat center bottom;
+  background-size: cover;
+}
+.block-12.pricing-section-three .pr-table-wrapper .price.v1 {
+    font-size: 40px;
+    line-height: 88px;
+}
+h6.fs-14 {
+    margin-bottom: 0;
+}
+.block-12 .label {
+    position: static;
+    background-color: #17cf8d;
+    border-radius: 50px;
+    padding: 4px 16px;
+    color: #fff;
+    font-size: 12px;
+    line-height: normal;
+    font-weight: normal;
+}
+.btn--primary-pack {
+    background: #5bc0be;
+    border-color: #5bc0be;
+    color: white;
+}
+@media (max-width: 991px) {
+.hero-heading {
+    font-size: 40px;
+    line-height: 1.19em;
+}
+.hero-sub-heading {
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+}
+
+
+
+
